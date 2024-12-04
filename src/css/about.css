@@ -1,0 +1,9 @@
+.texto{
+    font-size: 22px;
+    margin-bottom: 1.5rem;
+}
+
+.imagen{
+    width: 150px; /* Ajustá según lo que necesites */
+    height: 150px;
+}
