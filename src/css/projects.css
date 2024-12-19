@@ -1,0 +1,14 @@
+.card {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card.small {
+  height: 250px;
+  overflow: hidden;
+}
+
+.card.expanded {
+  height: auto;
+  background-color: #f5f5f5; /* Color opcional para distinguir */
+}

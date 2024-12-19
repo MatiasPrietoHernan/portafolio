@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div className="container">
       <div className="row align-items-center">
-        <img className="col circle responsive-img imagen" src={userPhoto} alt="Foto de Matias Prieto" />
+        <img className="col circle responsive imagen" src={userPhoto} alt="Foto de Matias Prieto" />
         <h2 className="col">Matías Prieto</h2>
       </div>
       <p className="texto">
         Soy un estudiante de programación de 20 años cursando mi última materia. Tengo conocimientos en lenguajes como:
-        JavaScript, TypeScript, C# y Python. Soy hábil con Node.js, Visual Studio Code, Pip y metodologías ágiles. Proactivo,
+        JavaScript, TypeScript, C# y Python. Soy hábil con Node.js, Visual Studio Code, Pip, npm y metodologías ágiles. Proactivo,
         con ganas de crecer, habilidades blandas amplias y disfruto trabajar en equipo.
       </p>
       <p className="texto">Tengo experiencia y me desenvuelvo con facilidad en:</p>
@@ -18,11 +18,17 @@ const About = () => {
         <li className='texto'><span className='material-icons'>done_outline</span> Stack Mern</li>  
         <li className='texto'><span className='material-icons'>done_outline</span> .NET Framework</li>  
         <li className='texto'><span className='material-icons'>done_outline</span> Scrum</li>  
+        <li className='texto'><span className='material-icons'>done_outline</span> SQL (Mysql, SQLite)</li>  
+        <li className='texto'><span className='material-icons'>done_outline</span> NO-SQL (MongoDB)</li>  
+        <li className='texto'><span className='material-icons'>done_outline</span> GIT</li>  
       </ul>
       <p className='texto'>Aprendiendo:</p>
       <ul>
         <li className='texto'><span className="material-icons">arrow_right_alt</span> Java (SpringBoot)</li>
         <li className='texto'><span className="material-icons">arrow_right_alt</span> Nest Framework</li>
+        <li className='texto'><span className="material-icons">arrow_right_alt</span> AspNet</li>
+        <li className='texto'><span className="material-icons">arrow_right_alt</span> Hosting</li>
+        <li className='texto'><span className="material-icons">arrow_right_alt</span> WordPress</li>
       </ul>
       <h4>Educación</h4>
       <div >
@@ -43,8 +49,6 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <br />
-        <br />
     </div>
   );
 };

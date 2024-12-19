@@ -1,3 +1,5 @@
+import '../css/contact.css';
+
 
 const Contact = () => {
   return (
@@ -14,10 +16,10 @@ const Contact = () => {
               <div className="col l4 offset-l2 s12">
                 <h5 className="white-text">Links</h5>
                 <ul>
-                  <li><a className="grey-text text-lighten-3" href="#!">Github</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Linkedin</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Instagram</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Whatsapp</a></li>
+                  <li><a className="grey-text text-lighten-3" href="https://github.com/MatiasPrietoHernan" target='_blank'>Github</a></li>
+                  <li><a className="grey-text text-lighten-3" href="#!" target='_blank'>Linkedin</a></li>
+                  <li><a className="grey-text text-lighten-3" href="https://www.instagram.com/mattiprieto00" target='_blank'>Instagram</a></li>
+                  <li><a className="grey-text text-lighten-3" href="https://wa.me/+543816079212" target='_blank'>Whatsapp</a></li>
                 </ul>
               </div>
             </div>
